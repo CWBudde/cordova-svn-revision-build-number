@@ -31,7 +31,7 @@ module.exports = function(context) {
     
   function parseConfig(configOpts) {
     var info = require('svn-info').sync('.');
-    var newVersion = 5000 + parseInt(info.revision);
+    var newVersion = parseInt(info.revision);
     configOpts.widget.$['android-versionCode'] = newVersion; 
     configOpts.widget.$['ios-CFBundleVersion'] = newVersion;
     configOpts.widget.$['osx-CFBundleVersion'] = newVersion; 
