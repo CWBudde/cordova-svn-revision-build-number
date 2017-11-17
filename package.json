@@ -1,0 +1,42 @@
+{
+  "name": "cordova-svn-revision-build-number",
+  "version": "0.1.0",
+  "description": "Retrieve version number from the svn revision before cordova prepare for iOS, OS X, Android, and Windows",
+  "main": "UpdateBuildNumber.js",
+  "dependencies": {
+    "xml2js": "^0.4.10",
+    "svn-info": "^1.0.0"
+  },
+  "peerDependencies": {
+    "xml2js": "^0.4.10",
+    "svn-info": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "node scripts/install.js",
+    "postuninstall": "node scripts/uninstall.js"
+  },
+  "author": "Christian-W. Budde",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CWBudde/cordova-svn-revision-build-number.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CWBudde/cordova-svn-revision-build-number/issues"
+  },
+  "homepage": "https://github.com/CWBudde/cordova-svn-revision-build-number#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "build",
+    "cordova",
+    "cordova-build",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-android",
+    "cordova-windows",
+    "hooks",
+    "hook",
+    "svn"
+  ]
+}
