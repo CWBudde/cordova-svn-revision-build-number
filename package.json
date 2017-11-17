@@ -1,6 +1,6 @@
 {
   "name": "cordova-svn-revision-build-number",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Retrieve version number from the svn revision before cordova prepare for iOS, OS X, Android, and Windows",
   "main": "UpdateBuildNumber.js",
   "dependencies": {
